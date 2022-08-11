@@ -1,0 +1,3 @@
+import os
+
+SELENIUM_REMOTE_WEBDRIVER_URL = os.getenv("SELENIUM_REMOTE_WEBDRIVER_URL", "http://0.0.0.0:4444/wd/hub")
